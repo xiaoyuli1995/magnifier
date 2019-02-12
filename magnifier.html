@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>magnifier</title>
+    <link rel="stylesheet" href="./magnifier.css">
+</head>
+<body>
+    <div class="container-magnifier">
+        <div class="wrap_small_magnifier">
+            <img src="./images/1.jpg" alt="">
+             <div class="focus"></div>
+             <div class="patch"></div>
+        </div>
+        <div class="wrap_choice_magnifier">
+            <i class="active"
+            data-big="./images/1.big.jpg"
+            data-small="./images/1.jpg"
+            ><img src="./images/1.small.jpg" alt=""></i>
+             <i
+             data-big="./images/2.big.jpg"
+             data-small="./images/2.jpg"
+             ><img src="./images/2.small.jpg" alt=""></i>
+        </div>
+        <div class="wrap_big_magnifier">
+              <img src="./images/1.big.jpg" alt="">
+        </div>
+    </div>
+</body>
+<script src="./magnifier.js"></script>
+</html>
